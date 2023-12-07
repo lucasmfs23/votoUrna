@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+#urna{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    width: 1000px;
+    height: 350px;
+    margin: 10% auto;
+    line-height: 50px;
+    background-color: white;
+}
+#tela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    margin: 10% auto;
+    background-color: white;
+    border: 1px solid black;
+    gap: 10px;
+}
+#div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    margin: 10% auto;
+    line-height: 50px;
+    border: 1px solid black;
+}
+input{
+    width: 200px;
+
+}
+button{
+    width: 64px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+#branco{
+    text-align: center;
+    background-color: white;
+    color:black;
+}
+#corrige{
+    text-align: center;
+    background-color: red;
+    color:black;
+}
+#confirmar{
+    
+    text-align: center;
+    background-color: green;
+    color:black;
+}
+.result p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+#resultado{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
+#resultado2{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
+#resultado3{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
+#resultado4{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
+#candidatos{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+}

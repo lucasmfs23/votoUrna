@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade Urna Eleitoral</title>
+</head>
+<body>
+    <div id="urna">
+        <div id="candidatos">
+            <div>
+                <h1>Lista de candidatos</h1>
+                <p>Presidente: <br>
+                    Jj - 0011 <br>
+                    Mfz - 0025
+                </p>
+            </div>
+        </div>
+        <div id="tela">
+            <div class="result">
+                <p id="resultado"></p>
+            </div>
+            <div class="result">
+                <p id="resultado2"></p>
+            </div>
+            <div class="result">
+                <p id="resultado3"></p>
+            </div>
+            <div class="result">
+                <p id="resultado4"></p>
+            </div>
+            <div>
+                <p id="Resultadof"></p>
+            </div>
+        </div>
+        <div id="div">
+            <div>
+                <h1>Justiça Eleitoral</h1>
+            </div>
+            <div>
+                <div>
+                    <button onclick="insert('1')">1</button>
+                    <button onclick="insert('2')">2</button>
+                    <button onclick="insert('3')">3</button>
+                </div>
+                <div>
+                    <button onclick="insert('4')">4</button>
+                    <button onclick="insert('5')">5</button>
+                    <button onclick="insert('6')">6</button>
+                </div>
+                <div>
+                    <button onclick="insert('7')">7</button>
+                    <button onclick="insert('8')">8</button>
+                    <button onclick="insert('9')">9</button>
+                </div>
+                <div>
+                    <button onclick="insert('0')">0</button>
+                </div>
+                <div>
+                    <button onclick="branco()" id="branco">Branco</button>
+                    <button onclick="corrigir()" id="corrige">Corrige</button>
+                    <button onclick="votar()" id="confirmar">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
